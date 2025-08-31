@@ -2,20 +2,23 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-}
+ }
 body{
-    background-color: black;
+  background-color:rgb(0, 0, 0);
     overflow-x: hidden;
 }
 .url li a{
-    color: white;
+  color:white;
 }
 .logo{
   font-weight: bold;
   margin-left: 200px;
- width: 40px;
- height: 40px;
-
+ width: 60px;
+ height: 30px;
+}
+.explan{
+  font-size:20px;
+  margin-top:30px;
 }
 nav{
     display: flex;
@@ -23,13 +26,12 @@ nav{
     align-items: center;
     width: 100vw; 
     height: 10vh;
-
 }
 .url{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    margin-left: 90px;
+    gap:50px;
+    margin-left: 150px;
     list-style-type: none;
     text-decoration: none;
     margin-right: 50px;
@@ -147,7 +149,6 @@ nav{
     font-size: 39.06px;
 }
 .div2{
-    /* background-color: red; */
      
     width: 200px;
     color: white;
@@ -163,8 +164,6 @@ color: white;
 width: 300px;
 border:2px solid white;
 font-size: larger;
-
-
 }
 .con-2{
 display: flex;
@@ -197,17 +196,13 @@ width: 300px;
 border:2px solid white;
 font-size: larger;
 }
-.                                                           {
-margin-top: 50px;
-}
-
 .circle{
     width: 50px;
     height: 50px;
     border-radius:50%;
     margin-top: 180px;
     margin-bottom:60px;
-    background-color: aquamarine;
+    background-color: rgb(24, 121, 231);
 }
 .Card{
       display: flex;
@@ -215,8 +210,7 @@ margin-top: 50px;
     margin-top: 15px;
     margin-left: 150px;
     width:1200px;
-    background-color: rgb(107, 36, 3);
-    
+    background-color: rgb(14, 13, 13);
 }
 .Square{
      width: 50px;
@@ -225,27 +219,6 @@ margin-top: 50px;
      margin-top: 180px;
     margin-bottom:60px;
 }
-.complex .shape{
-     position: relative;
-    width:50px;
-    height:50px;
-    margin:0 auto;
-}
-.complex .shape .half-circle{
-    width:50px;
-    height:25px;
-    background: #4bff87;
-    border-radius:50px 50px 0 0;
-    position: absolute left 0;
-}
-
-
-.triangles{
-    border-left:12px solid transparent;
-    border-right: 12px solid transparent;
-    border-bottom: 20px solid#4DFFEC
-}
-
 .section-4{
   color: white;
   margin-top: 180px;
@@ -266,4 +239,98 @@ margin-top: 50px;
   justify-content: space-between;
   gap: 50px;
   flex-wrap: wrap;
+}
+.mt-50{
+  margin-top:50px;
+}
+
+.contenar1{
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    background-color: beige;
+    border: 1px solid rgba(255, 255, 255, 0.553);
+    /* margin-left: 600px; */
+}
+.left{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.immag{
+    border-radius: 50%;
+    width: 230px;
+    height: 230px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.right{
+    color: white;
+  width: 40vw;
+  border: 1px solid rgba(255, 255, 255, 0.553);
+  background-color: black;
+}
+.input{
+    width: 17vw;
+    height: 3vh;
+    margin-top:10px ;
+    margin-left: 10px;
+}
+.buttom{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+     /* gap: 150px; */
+     margin-top: 10px;
+     
+}
+.buttom-bo{
+     width: 100px;
+    height: 35px; 
+    background-color: rgb(255, 255, 255);
+    font-size: large;
+    color: black;
+}
+.top{
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+.pi-button{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    background-color: rgb(0, 0, 0);
+    width: 23vw;
+    gap: 60px;
+    margin-bottom: 50px;
+    align-items: first baseline;
+    color: white;
+}
+.left-con{
+    margin-left: 30px;
+}
+.material-symbols-outlined{
+    /* width: 60px;
+    height: 60px;
+    background-color: aquamarine; */
+    margin-top: 18px;
+}
+.ic{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.von-icon{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgba(255, 255, 255, 0.553);
+}
+.section-5{
+    display: flex;
+    justify-content: end;
+    /* background-color: black; */
 }
