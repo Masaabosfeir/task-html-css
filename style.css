@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.url li a{
+    color: white;
+}
+.logo{
+  font-weight: bold;
+  margin-left: 200px;
+ width: 40px;
+ height: 40px;
+
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 100vw; 
+    height: 10vh;
+
+}
+.url{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 90px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.section-2{
+    background-color: rgb(0, 0, 0);
+    position:relative;
+    height: 500px;
+    width: 1520px;
+}
+.rectangle {
+  height: 24px;
+  width: 400px;
+  margin-left: 1100px;
+  margin-top: 89px;
+ position:absolute;
+ rotate: 10deg; ;
+  background-color: rgb(251, 114, 255);
+}
+.rectangle2 {
+  height: 24px;
+  width: 300px;
+  margin-left: 1250px;
+  margin-top: 269px;
+ position:absolute;
+ rotate: -10deg; ;
+  background-color: rgb(251, 114, 255);
+}
+.rectangle3 {
+  height: 24px;
+  width: 400px;
+  margin-left: 1100px;
+  margin-top: 431px;
+ position:absolute;
+ rotate: 10deg; ;
+  background-color: rgb(251, 114, 255);
+}
+.rectangle4 {
+  height: 24px;
+  width: 115px;
+  margin-left: 900px;
+  margin-top: 471px;
+ position:absolute; ;
+  background-color: rgb(98, 235, 154);
+}
+.circle1 {
+    margin-left: 782px;
+    margin-top: 369px;
+  position:absolute;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(76, 171, 225);
+  border-radius: 50%;
+}
+.rectangle5 {
+  height: 75px;
+  width: 369px;
+  margin-left:500px;
+  margin-top: 265px;
+  rotate: -15deg;
+ position:absolute; ;
+  background-color: rgb(255, 212, 38);
+}
+.rectangle6 {
+  height: 75px;
+  width: 369px;
+  margin-left:500px;
+  margin-top: 268px;
+  rotate: 75deg;
+ position:absolute; ;
+  background-color: rgb(255, 212, 38);
+}
+.circle2 {
+    margin-left:643px;
+    margin-top: 260px;
+  position:absolute;
+  height: 75px;
+  width: 75px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+.rectangle7 {
+  height: 75px;
+  width: 369px;
+  margin-right:111px;
+  margin-top: 254px;
+  rotate: 130deg;
+ position:absolute; ;
+  background-color: rgb(251, 114, 255);
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+   position:absolute;
+     margin-top: 210px;
+     margin-left:153px;
+	border-left: 150px solid transparent ;
+	border-right: 150px solid transparent;
+	border-bottom: 250px solid rgb(0, 255, 242);
+}
+
+.rectangle8 {
+  height: 75px;
+  width: 200px;
+  margin-left:62px;
+  margin-top: 144px;
+  rotate: 220deg;
+ position:absolute; ;
+  background-color: rgb(251, 114, 255);
+}
+.div1{
+    color:white;
+    padding-left: 150px;
+    margin-top: 42px;
+    font-size: 39.06px;
+}
+.div2{
+    /* background-color: red; */
+     
+    width: 200px;
+    color: white;
+    rotate: -90deg;
+    
+}
+.con-1{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+width: 300px;
+border:2px solid white;
+font-size: larger;
+
+
+}
+.con-2{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+width: 300px;
+border:2px solid white;
+font-size: larger;
+}
+.con-3{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+width: 300px;
+border:2px solid white;
+font-size: larger;
+
+}
+.con-4{
+  display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: white;
+width: 300px;
+border:2px solid white;
+font-size: larger;
+}
+.title-1{
+margin-top: 50px;
+}
+.text-1{
+    margin-top:50px;
+}
+.title-2{
+    margin-top: 50px;
+}
+.text-2{
+    margin-top: 50px;
+}
+.text-3{
+    margin-top: 50px;
+}
+.title-3{
+    margin-top: 50px;
+}
+.text-4{
+    margin-top: 50px;
+}
+.title-4{
+    margin-top: 50px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    margin-top: 180px;
+    margin-bottom:60px;
+    background-color: aquamarine;
+}
+.Card{
+      display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-left: 150px;
+    width:1200px;
+    background-color: rgb(107, 36, 3);
+    
+}
+.Square{
+     width: 50px;
+    height: 50px;
+    background-color: deeppink;
+     margin-top: 180px;
+    margin-bottom:60px;
+}
+.complex shape{
+     position: relative;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+}
+.complex shape .half-circle.{
+    width:50px;
+    height:25px;
+    background: #4bff87;
+    border-radius:50px 50px 0 0;
+    position: absolute left 0;
+}
+
+
+.triangles{
+    border-left:12px solid transparent
+    border- right 12px;solid transparent
+    border-bottom: 20px solid#4DFFEC
+}
+.div3{
+    margin-top:;
+}
