@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 .url li a{
     color: white;
@@ -196,30 +197,10 @@ width: 300px;
 border:2px solid white;
 font-size: larger;
 }
-.title-1{
+.                                                           {
 margin-top: 50px;
 }
-.text-1{
-    margin-top:50px;
-}
-.title-2{
-    margin-top: 50px;
-}
-.text-2{
-    margin-top: 50px;
-}
-.text-3{
-    margin-top: 50px;
-}
-.title-3{
-    margin-top: 50px;
-}
-.text-4{
-    margin-top: 50px;
-}
-.title-4{
-    margin-top: 50px;
-}
+
 .circle{
     width: 50px;
     height: 50px;
@@ -244,13 +225,13 @@ margin-top: 50px;
      margin-top: 180px;
     margin-bottom:60px;
 }
-.complex shape{
+.complex .shape{
      position: relative;
     width:50px;
     height:50px;
     margin:0 auto;
 }
-.complex shape .half-circle.{
+.complex .shape .half-circle{
     width:50px;
     height:25px;
     background: #4bff87;
@@ -260,10 +241,29 @@ margin-top: 50px;
 
 
 .triangles{
-    border-left:12px solid transparent
-    border- right 12px;solid transparent
+    border-left:12px solid transparent;
+    border-right: 12px solid transparent;
     border-bottom: 20px solid#4DFFEC
 }
-.div3{
-    margin-top:;
+
+.section-4{
+  color: white;
+  margin-top: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.section-4 header {
+    color: white;
+    rotate: -90deg;
+    width: fit-content;
+    margin-left: 150px;
+    margin-bottom : 1550px ;
+}
+.section-4 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
 }
